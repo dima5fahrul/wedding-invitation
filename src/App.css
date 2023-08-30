@@ -11,22 +11,22 @@
 }
 
 .bg-img-first-banner {
-  background-image: url("src/assets/first-banner.JPG");
+  background-image: url("assets/first-banner.JPG");
 }
 
 .bg-img-second-banner {
-  background-image: url("src/assets/second-banner.JPG");
+  background-image: url("assets/second-banner.JPG");
 }
 
 .bg-card {
-  background-image: url("src/assets/bg-card.JPG");
+  background-image: url("assets/bg-card.JPG");
   height: 34rem;
 }
 
 .countdown-bg {
-  background-image: url("src/assets/countdown-bg.JPG");
+  background-image: url("assets/countdown-bg.JPG");
 }
 
 .footer-img {
-  background-image: url("src/assets/footer-img.jpg");
+  background-image: url("assets/footer-img.jpg");
 }
