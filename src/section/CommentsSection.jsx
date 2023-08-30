@@ -180,7 +180,7 @@ export default function CommentsSection({}) {
                   type="text"
                   name="name"
                   id="name"
-                  className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                  className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-white focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                   value={input.name}
                   onChange={handleInput}
                   placeholder=" "
@@ -244,7 +244,7 @@ export default function CommentsSection({}) {
 
             <label
               htmlFor="message"
-              className="block mb-2 text-sm font-medium font-quicksand text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-medium font-quicksand text-white dark:text-white"
             >
               Sampaikan Pesan
             </label>
@@ -252,7 +252,7 @@ export default function CommentsSection({}) {
               typeof="message"
               id="message"
               rows={4}
-              className="block p-2.5 w-full text-sm text-gray-900 bg-neutral-600 rounded-lg border border-gray-300 focus:ring-white focus:border-white dark:bg-neutral-600 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-white dark:focus:border-white font-quicksand"
+              className="block p-2.5 w-full text-sm text-white bg-neutral-600 rounded-lg border border-gray-300 focus:ring-white focus:border-white dark:bg-neutral-600 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-white dark:focus:border-white font-quicksand"
               name="message"
               onChange={handleInput}
               value={input.message}
