@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../app.css";
+import "../App.css";
 import SecondBanner from "../components/SecondBanner";
 import "react-toastify/dist/ReactToastify.css";
 import { useContext } from "react";

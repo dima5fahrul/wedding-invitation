@@ -21,10 +21,7 @@ export default function FooterSection({}) {
         </h1>
         <Waves />
         <div className="w-full bg-black h-1/5">
-          <div
-            className="flex flex-col justify-start justify-items-start items-center gap-1"
-            data-aos="fade-up"
-          >
+          <div className="flex flex-col justify-start justify-items-start items-center gap-1">
             <p className="font-quicksand text-white font-medium">
               Made With 💵 By{" "}
             </p>
