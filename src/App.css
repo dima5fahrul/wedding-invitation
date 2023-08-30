@@ -1,0 +1,32 @@
+.font-quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+.font-sacramento {
+  font-family: "Sacramento", cursive;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-img-first-banner {
+  background-image: url("assets/first-banner.JPG");
+}
+
+.bg-img-second-banner {
+  background-image: url("assets/second-banner.JPG");
+}
+
+.bg-card {
+  background-image: url("assets/bg-card.JPG");
+  height: 34rem;
+}
+
+.countdown-bg {
+  background-image: url("assets/countdown-bg.JPG");
+}
+
+.footer-img {
+  background-image: url("assets/footer-img.jpg");
+}
