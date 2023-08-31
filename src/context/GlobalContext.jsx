@@ -1,6 +1,11 @@
 import React, { createContext, useRef, useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import img1 from "../assets/img/first-img.jpg";
+import img2 from "../assets/img/second-img.jpg";
+import img3 from "../assets/img/third-img.jpg";
+import img4 from "../assets/img/fourth-img.jpg";
+import img5 from "../assets/img/fifth-img.jpg";
 
 export const GlobalContext = createContext();
 
@@ -8,13 +13,7 @@ export const GlobalProvider = (props) => {
   const newYear = new Date("Oct 7, 2023").getTime();
 
   // images
-  const images = [
-    "src/assets/img/first-img.jpg",
-    "src/assets/img/second-img.jpg",
-    "src/assets/img/third-img.jpg",
-    "src/assets/img/fourth-img.jpg",
-    "src/assets/img/fifth-img.jpg",
-  ];
+  const images = [img1, img2, img3, img4, img5];
 
   // additional
   const [showNextPage, setShowNextPage] = useState(false);

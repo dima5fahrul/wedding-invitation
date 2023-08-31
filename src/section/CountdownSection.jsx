@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalContext";
+import "../App.css";
 
 export default function CountdownSection({}) {
   const { state } = useContext(GlobalContext);
