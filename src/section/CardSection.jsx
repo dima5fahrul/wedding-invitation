@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalContext";
+import bgCard from "../assets/bg-card.jpg";
 
 export default function CardSection({}) {
   const { state } = useContext(GlobalContext);
@@ -27,7 +28,13 @@ export default function CardSection({}) {
             Allah akan dilaksanakan pada:
           </p>
           <figure className="relative text-center w-full cursor-pointer filter border-2 rounded-lg">
-            <div className="bg-card rounded-lg bg-cover bg-no-repeat bg-center relative">
+            <div
+              className="bg-card rounded-lg bg-cover bg-no-repeat bg-center relative"
+              style={{
+                backgroundImage: `url(${bgCard})`,
+                height: `34rem`,
+              }}
+            >
               <figcaption
                 className="absolute inset-0 flex items-center justify-center px-4 text-lg flex-col text-white"
                 data-aos="zoom-in"

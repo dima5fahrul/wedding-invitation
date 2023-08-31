@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalContext";
-import "../App.css";
+import countdownBg from "../assets/countdown-bg.jpg";
 
 export default function CountdownSection({}) {
   const { state } = useContext(GlobalContext);
@@ -8,7 +8,12 @@ export default function CountdownSection({}) {
 
   return (
     <>
-      <section className="w-screen countdown-bg bg-no-repeat bg-cover bg-center text-white dark:text-white">
+      <section
+        className="w-screen bg-no-repeat bg-cover bg-center text-white dark:text-white"
+        style={{
+          backgroundImage: `url(${countdownBg})`,
+        }}
+      >
         <div className="flex flex-col justify-center h-auto text-center items-center lg:px-28 lg:py-40 px-10 pt-10 pb-28">
           <p
             className="font-sacramento lg:text-5xl text-3xl"
