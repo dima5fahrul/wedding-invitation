@@ -9,11 +9,11 @@ export const GlobalProvider = (props) => {
 
   // images
   const images = [
-    "src/assets/first-img.jpg",
-    "src/assets/second-img.jpg",
-    "src/assets/third-img.jpg",
-    "src/assets/fourth-img.jpg",
-    "src/assets/fifth-img.jpg",
+    "src/assets/img/first-img.jpg",
+    "src/assets/img/second-img.jpg",
+    "src/assets/img/third-img.jpg",
+    "src/assets/img/fourth-img.jpg",
+    "src/assets/img/fifth-img.jpg",
   ];
 
   // additional
