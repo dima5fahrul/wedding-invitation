@@ -53,7 +53,7 @@ export default function GalerySection({}) {
             ))}
           </div>
 
-          <div className="flex lg:flex-row flex-col lg:gap-4 justify-center">
+          <div className="flex lg:flex-row flex-col gap-4 justify-center">
             {images.slice(3, 5).map((image, index) => (
               <div
                 key={index + 3}
