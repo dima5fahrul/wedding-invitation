@@ -84,7 +84,7 @@ export default function GalerySection({}) {
 
         <div className="flex justify-center items-center mt-10">
           <div
-            className="container bg-neutral-600 h-[32rem] w-11/12 lg:w-1/2 rounded-3xl flex flex-col justify-center items-center text-center lg:px-14 px-5"
+            className="container bg-neutral-600 h-[40rem] w-11/12 lg:w-1/2 rounded-3xl flex flex-col justify-center items-center text-center lg:px-14 px-5"
             data-aos="zoom-in"
             data-aos-duration={1000}
           >
@@ -157,10 +157,10 @@ export default function GalerySection({}) {
             </button>
 
 	    <p className="font-quicksand font-bold text-sm lg:text-base mt-5 mb-2">
-              BRI a.n ELSA FEBRIANA
+              MANDIRI a.n DIMAS FAHRUL PUTRA A
             </p>
             <p className="font-quicksand font-bold text-sm lg:text-base mb-5">
-              807401000543502
+              1400020788619
             </p>
             <button
               className="rounded-xl flex flex-row bg-white hover:bg-black justify-center items-center gap-2 text-black hover:text-white"
